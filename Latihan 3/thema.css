@@ -2,18 +2,20 @@ p{
     text-align: center;
     color: red;
 }
+
 #para1{
     text-align: right;
-    color: green;
+    color: green
 }
+
 .para2{
     text-align: left;
-    color: blue;
-}   
+    color: blue;    
+}
 
-h1, h2, h3{
-    text-align: center;
-    color: yellow;
+h1, h2, h3 {
+    text-align: right;
+    color: purple;
 }
 
 a{
@@ -25,7 +27,7 @@ a:visited{
     color: yellow;
 }
 
-a:hover{
+a :hover{
     color: red;
     text-decoration: none;
 }
@@ -35,22 +37,22 @@ a:active{
 }
 
 body{
+    background-color: lightgrey;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    margin: 0;
 }
 
 header{
-    background-color: #31013f;
-    color: #fff;
-    text-align: center;
+    background-color: black;
+    color: white;
     padding: 20px;
+    text-align: center;
 }
 
 nav{
     background-color: #be6bda;
-    color: #f0E3E4;
+    color: #f0e3e4;
     text-align: center;
     padding: 10px;
 }
@@ -71,7 +73,7 @@ main{
 
 footer{
     background-color: #31013f;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
